@@ -2,7 +2,7 @@
 GOOS?=linux
 GOARCH?=amd64
 
-PROJECT?=github.com/dtrifonov/GolangWorkshop
+PROJECT?=github.com/dtrifonov/golang_workshop
 BUILD_PATH?=cmd/go-sofia
 APP?=go-sofia
 

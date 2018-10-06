@@ -1,1 +1,1 @@
-# GolangWorkshop 0.0.1
+# golang_workshop 

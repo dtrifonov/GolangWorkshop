@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/dtrifonov/GolangWorkshop/internal/diagnostics"
+	"github.com/dtrifonov/golang_workshop/internal/diagnostics"
 	"github.com/gorilla/mux"
 )
 
