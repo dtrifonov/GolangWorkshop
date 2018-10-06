@@ -9,6 +9,7 @@ import (
 	"time"
 
 	"github.com/dtrifonov/golang_workshop/internal/diagnostics"
+
 	"github.com/gorilla/mux"
 )
 

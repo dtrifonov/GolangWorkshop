@@ -1,0 +1,6 @@
+github.com/dtrifonov/golang_workshop v0.0.0-20181006141156-0043f8b45082 h1:vhsXtCn7lf3D+BzaeaW057WB7lWe2EEdosTd1FE2C5k=
+github.com/dtrifonov/golang_workshop v0.0.0-20181006141156-0043f8b45082/go.mod h1:JB0Fnb00tiS056zUJOHc5dpkKB+7cpjs6aQx7OoHlUE=
+github.com/gorilla/context v1.1.1 h1:AWwleXJkX/nhcU9bZSnZoi3h/qGYqQAGhq6zZe/aQW8=
+github.com/gorilla/context v1.1.1/go.mod h1:kBGZzfjB9CEq2AlWe17Uuf7NDRt0dE0s8S51q0aT7Yg=
+github.com/gorilla/mux v1.6.2 h1:Pgr17XVTNXAk3q/r4CpKzC5xBM/qW1uVLV+IhRZpIIk=
+github.com/gorilla/mux v1.6.2/go.mod h1:1lud6UwP+6orDFRuTfBEV8e9/aOM/c4fVVCaMa2zaAs=
