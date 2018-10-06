@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/dtrifonov/GolangWorkshop/internal/diagnostics"
 	"github.com/gorilla/mux"
-	"golang_workshop/internal/diagnostics"
 )
 
 type serverConf struct {
