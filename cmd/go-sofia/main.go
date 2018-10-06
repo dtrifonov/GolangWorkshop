@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/rumyantseva/go-sofia/internal/diagnostics"
+	"golang_workshop/internal/diagnostics"
 )
 
 type serverConf struct {
