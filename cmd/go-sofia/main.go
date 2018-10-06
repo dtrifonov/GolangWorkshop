@@ -2,9 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/gorilla/mux"
 	"log"
 	"net/http"
+
+	"github.com/gorilla/mux"
+
+	"github.com/dtrifonov/GolangWorkshop/internal/diagnostics"
 )
 
 func main() {
@@ -28,5 +31,5 @@ func main() {
 }
 
 func hello(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, r.StatusTtext(http.StatusOK))
+	fmt.Fprint(w, http.StatusText(http.StatusOK))
 }
