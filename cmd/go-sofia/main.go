@@ -6,9 +6,10 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"time"
 
 	"github.com/gorilla/mux"
-	"golang_workshop/internal/diagnostics"
+	"github.com/rumyantseva/go-sofia/internal/diagnostics"
 )
 
 type serverConf struct {
@@ -70,8 +71,15 @@ func main() {
 	select {
 	case err := <-possibleErrors:
 		for _, s := range servers {
-			// propose a PR with context timeout
-			s.Shutdown(context.Background())
+			timeout := 5 * time.Second
+			log.Printf("\nShutdown with timeout: %s\n", timeout)
+			ctx, cancel := context.WithTimeout(context.Background(), timeout)
+			defer cancel()
+			customError := s.Shutdown(ctx)
+			if customError != nil {
+				fmt.Println(customError)
+			}
+			log.Printf("Server gracefully stopped")
 		}
 		log.Fatal(err)
 	}
