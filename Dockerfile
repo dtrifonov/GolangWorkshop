@@ -12,7 +12,7 @@ WORKDIR /go/src/github.com/dtrifonov/GolangWorkshop
 RUN CGO_ENABLED=0 go build \
 	-o bin/go-sofia github.com/dtrifonov/GolangWorkshop/cmd/go-sofia
 
-# Stage 2. Run the binary
+# Stage 2. Run the binary, stage
 FROM scratch
 
 ENV PORT 8080
