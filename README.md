@@ -3,7 +3,7 @@
 2. https://github.com/rumyantseva/sofia
 
 # golang version 1.11.1
-To use modules
+To use modules and create vendor folder
 export GO1111MODULES=on
 go mod init
 go mod tidy
