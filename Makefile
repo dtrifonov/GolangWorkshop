@@ -6,7 +6,7 @@ PROJECT?=github.com/dtrifonov/golang_workshop
 BUILD_PATH?=cmd/go-sofia
 APP?=go-sofia
 
-PORT?=8000
+PORT?=8080
 DIAG_PORT?=3001
 
 # Current version and commit
