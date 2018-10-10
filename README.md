@@ -16,3 +16,9 @@ go mod init
 go mod tidy
 go mod vendor
 ```
+
+# work with kubectl
+
+```
+ kubectl delete deployment go-sofia
+```
