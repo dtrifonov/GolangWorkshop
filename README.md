@@ -20,5 +20,6 @@ go mod vendor
 # work with kubectl
 
 ```
- kubectl delete deployment go-sofia
+kubectl delete deployment go-sofia
+kubectl delete deployment,service go-sofia
 ```
