@@ -22,4 +22,5 @@ go mod vendor
 ```
 kubectl delete deployment go-sofia
 kubectl delete deployment,service go-sofia
+kubectl delete deployment,service,ingress go-sofia
 ```
